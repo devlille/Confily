@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0060F46B2C8BC231000BCD06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */; };
+		004723BD2CA2184F008F8F0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004723BC2CA2184F008F8F0C /* GoogleService-Info.plist */; };
 		009DACF52C69384200A7F42E /* AgendaRepositoryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009DACF42C69384200A7F42E /* AgendaRepositoryExt.swift */; };
 		009DACF72C693A5A00A7F42E /* EventRepositoryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009DACF62C693A5A00A7F42E /* EventRepositoryExt.swift */; };
 		009DACF92C693B0900A7F42E /* UserRepositoryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009DACF82C693B0900A7F42E /* UserRepositoryExt.swift */; };
@@ -119,7 +119,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		004723BC2CA2184F008F8F0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		009DACF42C69384200A7F42E /* AgendaRepositoryExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaRepositoryExt.swift; sourceTree = "<group>"; };
 		009DACF62C693A5A00A7F42E /* EventRepositoryExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepositoryExt.swift; sourceTree = "<group>"; };
 		009DACF82C693B0900A7F42E /* UserRepositoryExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryExt.swift; sourceTree = "<group>"; };
@@ -242,6 +242,7 @@
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
+				004723BC2CA2184F008F8F0C /* GoogleService-Info.plist */,
 				7555FF7D242A565900829871 /* iosApp */,
 				7555FF7C242A565900829871 /* Products */,
 				7555FFB0242A642200829871 /* Frameworks */,
@@ -259,7 +260,6 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
-				0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */,
 				D5F324A127C6E2C6007CA4C1 /* data */,
 				D50A458C27B0818F00C9A43C /* components */,
 				D51C2CCF28383706006EED5D /* extensions */,
@@ -674,7 +674,7 @@
 			files = (
 				D58F1D5127B001CE00FB59C7 /* Colors.xcassets in Resources */,
 				D553D579281F2FE600D39A5B /* Localizable.strings in Resources */,
-				0060F46B2C8BC231000BCD06 /* GoogleService-Info.plist in Resources */,
+				004723BD2CA2184F008F8F0C /* GoogleService-Info.plist in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 			);
@@ -972,7 +972,7 @@
 					"-framework",
 					SharedDi,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.paligot.confily.ios.debug;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gdglille.devfest.ios.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1007,7 +1007,7 @@
 					"-framework",
 					SharedDi,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.paligot.confily.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gdglille.devfest.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
