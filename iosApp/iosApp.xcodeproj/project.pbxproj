@@ -118,6 +118,7 @@
 		D5D7E10D2BEE4F1D0027071D /* ScheduleEventSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7E10C2BEE4F1D0027071D /* ScheduleEventSessionViewModel.swift */; };
 		D5D7E10F2BEE4FB40027071D /* ScheduleEventSessionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7E10E2BEE4FB40027071D /* ScheduleEventSessionVM.swift */; };
 		F535A2C22F3A9D2100148F86 /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F535A2C12F3A9D2100148F86 /* Generated.xcconfig */; };
+		0060F46B2C8BC231000BCD06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -238,6 +239,7 @@
 		D5D7E10C2BEE4F1D0027071D /* ScheduleEventSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEventSessionViewModel.swift; sourceTree = "<group>"; };
 		D5D7E10E2BEE4FB40027071D /* ScheduleEventSessionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEventSessionVM.swift; sourceTree = "<group>"; };
 		F535A2C12F3A9D2100148F86 /* Generated.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
+		0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -323,6 +325,8 @@
 			isa = PBXGroup;
 			children = (
 				F535A2C12F3A9D2100148F86 /* Generated.xcconfig */,
+				0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */,
+				F535A2BE2F3A986F00148F86 /* Scripts */,
 				7555FF7D242A565900829871 /* iosApp */,
 				F535A2BE2F3A986F00148F86 /* Scripts */,
 				7555FF7C242A565900829871 /* Products */,
