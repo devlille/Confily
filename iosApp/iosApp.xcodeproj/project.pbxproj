@@ -19,7 +19,7 @@
 		005EB8D02D270DAC001A2ECA /* TeamMembersUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005EB8CF2D270DAC001A2ECA /* TeamMembersUIView.swift */; };
 		005EB8D22D2714F4001A2ECA /* TeamMembersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005EB8D12D2714F4001A2ECA /* TeamMembersVM.swift */; };
 		005EB8D42D27164C001A2ECA /* TeamMembersNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005EB8D32D27164C001A2ECA /* TeamMembersNavigation.swift */; };
-		0060F46B2C8BC231000BCD06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */; };
+		004723BD2CA2184F008F8F0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004723BC2CA2184F008F8F0C /* GoogleService-Info.plist */; };
 		00BBC83D2D5E9C1F0095AAE6 /* NSExceptionKtCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 00BBC83C2D5E9C1F0095AAE6 /* NSExceptionKtCrashlytics */; };
 		00FCD1072D7E1CA50072D73F /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCD1062D7E1CA50072D73F /* LineShape.swift */; };
 		00FCD10A2D7E21F30072D73F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCD1092D7E21F30072D73F /* MapViewModel.swift */; };
@@ -145,7 +145,7 @@
 		005EB8CF2D270DAC001A2ECA /* TeamMembersUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMembersUIView.swift; sourceTree = "<group>"; };
 		005EB8D12D2714F4001A2ECA /* TeamMembersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMembersVM.swift; sourceTree = "<group>"; };
 		005EB8D32D27164C001A2ECA /* TeamMembersNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMembersNavigation.swift; sourceTree = "<group>"; };
-		0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		004723BC2CA2184F008F8F0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00FCD1062D7E1CA50072D73F /* LineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
 		00FCD1092D7E21F30072D73F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		00FCD10B2D7E22C60072D73F /* MapItemUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItemUIView.swift; sourceTree = "<group>"; };
@@ -316,6 +316,7 @@
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
+				004723BC2CA2184F008F8F0C /* GoogleService-Info.plist */,
 				7555FF7D242A565900829871 /* iosApp */,
 				7555FF7C242A565900829871 /* Products */,
 				7555FFB0242A642200829871 /* Frameworks */,
@@ -333,7 +334,6 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
-				0060F46A2C8BC231000BCD06 /* GoogleService-Info.plist */,
 				D5F324A127C6E2C6007CA4C1 /* data */,
 				D50A458C27B0818F00C9A43C /* components */,
 				D51C2CCF28383706006EED5D /* extensions */,
@@ -757,7 +757,7 @@
 			files = (
 				D58F1D5127B001CE00FB59C7 /* Colors.xcassets in Resources */,
 				D553D579281F2FE600D39A5B /* Localizable.strings in Resources */,
-				0060F46B2C8BC231000BCD06 /* GoogleService-Info.plist in Resources */,
+				004723BD2CA2184F008F8F0C /* GoogleService-Info.plist in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 			);
@@ -1069,7 +1069,7 @@
 					"-framework",
 					SharedDi,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.paligot.confily.ios.debug;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gdglille.devfest.ios.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1104,7 +1104,7 @@
 					"-framework",
 					SharedDi,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.paligot.confily.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gdglille.devfest.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
