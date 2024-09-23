@@ -18,7 +18,7 @@ android {
     namespace = "com.paligot.confily.android"
 
     defaultConfig {
-        applicationId = "com.paligot.confily.android"
+        applicationId = "org.gdglille.devfest.android"
         versionCode = versionMajor * 1000 + versionMinor * 100 + versionPatch * 10 + versionBuild
         versionName = "$versionMajor.$versionMinor.$versionPatch"
     }
