@@ -5,11 +5,11 @@
 	<key>BASE_URL</key>
 	<string>${BASE_URL}</string>
 	<key>BASE_URL_C4H</key>
-	<string>https://confily-619943890215.europe-west1.run.app</string>
+	<string>https://api.devlille.fr</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Confily</string>
+	<string>DevLille</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
