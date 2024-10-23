@@ -1,0 +1,11 @@
+// This file is auto-generated from app.properties.prod. Do not modify.
+APPLICATION_ID=org.gdglille.devfest.android
+APPLICATION_NAME=DevLille
+
+BASE_URL=https:/$()/app-e675e675-2e47-445c-a7a7-359a37188469.cleverapps.io
+DEFAULT_EVENT=7193c477-1579-4216-a6cb-c8854e848395
+DEFAULT_LANGUAGE=fr
+
+FIREBASE_PROJECT_ID=open-feedback-42
+FIREBASE_APP_ID=1:635903227116:android:ffbe1750162d4b01b1e1c9
+FIREBASE_API_KEY=AIzaSyDVVFO767y1cfp38D_rveqPm0XEaWrzFiA
